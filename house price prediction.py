@@ -5,7 +5,7 @@ import pickle
 
 
 #Loading the saved model
-loaded_model = pickle.load(open('C:/Users\AYUSHMAN PANDEY\Desktop\ML PROJECT DEPLOYMENT\model_and_mapping.pkl', 'rb'))
+loaded_model = pickle.load(open("C:/Users/AYUSHMAN PANDEY/Desktop/ML PROJECT DEPLOYMENT/model_and_mapping.pkl",'rb'))
 
 model = loaded_model["model"]
 location_mapping = loaded_model["location_mapping"]
@@ -60,3 +60,4 @@ if st.button("Predict Price"):
 
    
     
+
